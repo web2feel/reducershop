@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.wrapper {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px;
+}
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 20px;
+
+}
+.sidebar{
+  padding: 0px 30px;
 }
